@@ -46,3 +46,5 @@ routes has:
 
 index.js - contains code to connect from server<br>
 config.js - contains jwt token
+
+# The front-end part is yet to be made!
