@@ -1,25 +1,27 @@
 # Course_app
 A course selling web application with working backend servers and database.
 
-An app that lets you(user) buy courses created by admin.
+An app that lets you(user) buy courses created by admin.<br>
 Uses -
         NodeJS,
         Express,
         MongoDB,
         Mongoose Library
 
-Repo has 3 folders & 2 files - db, Middleware and routes.
+Repo has 3 folders & 2 files - db, Middleware and routes.<br>
                              - index.js and config.js
 
 db has : 
         index.js - contains mongoose schemas for user, admin and courses table.
 
 Middleware has:
+
         admin.js - contains authentication logic using JWT tokens for admins
 
         user.js - contains authentication logic using JWT tokens for users
 
 routes has:
+
         admin.js - conatins various routes for admins
                         - signup (POST): signs up the admin creating a new admin in database.
 
@@ -43,5 +45,5 @@ routes has:
 
         **(Every route except signin and signup expects jwt token in header from user which the user gets at signin.)
 
-index.js - contains code to connect from server
+index.js - contains code to connect from server<br>
 config.js - contains jwt token
