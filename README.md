@@ -32,8 +32,7 @@ routes has:
                         - courses (GET): returns every course on web app.
 
         user.js - contains various routes for users
-                        - signup (POST): signs up the user
-                        creating a new user in database.
+                        - signup (POST): signs up the user creating a new user in database.
 
                         - signin (POST): signs in the user verifying if user exists or not providing jwt back.
 
